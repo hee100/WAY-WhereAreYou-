@@ -1,5 +1,5 @@
 
-![KNPS_logo](https://user-images.githubusercontent.com/95641633/208577817-e439ef66-b778-4cf2-90c5-92e080806662.png){: width="60%"",height="40%""}  ![BigLeader_logo](https://user-images.githubusercontent.com/95641633/208577847-d4472aca-8852-418b-9cda-cbddb74a6ec8.png)
+<img src='https://user-images.githubusercontent.com/95641633/208577817-e439ef66-b778-4cf2-90c5-92e080806662.png' width="30%" height="40%"> ![BigLeader_logo](https://user-images.githubusercontent.com/95641633/208577847-d4472aca-8852-418b-9cda-cbddb74a6ec8.png)
 
 
 # 소개
