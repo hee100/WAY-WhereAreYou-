@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1579</width>
+    <height>1020</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="maintap">
+       <attribute name="title">
+        <string>Data</string>
+       </attribute>
+       <widget class="QPushButton" name="AscButton">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>70</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>2. 환경변수</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="SamplingButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>141</width>
+          <height>34</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>1. 위치 좌표</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="table">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>140</y>
+          <width>721</width>
+          <height>731</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="CsvButton">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>70</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>3. csv파일</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="IncoderBtn">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>70</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>인코딩</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>800</x>
+          <y>140</y>
+          <width>741</width>
+          <height>731</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="map_layout"/>
+       </widget>
+       <widget class="QPushButton" name="ColRM_btn">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>70</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>컬럼 제거</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Result</string>
+       </attribute>
+       <widget class="QPushButton" name="ModelingButton">
+        <property name="geometry">
+         <rect>
+          <x>1110</x>
+          <y>890</y>
+          <width>131</width>
+          <height>34</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>모델링시작</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>790</y>
+          <width>1081</width>
+          <height>141</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>1260</x>
+          <y>660</y>
+          <width>141</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QCheckBox" name="RFCB">
+           <property name="text">
+            <string>RandomForest</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="ETCB">
+           <property name="text">
+            <string>ExtraTrees</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="AdaCB">
+           <property name="text">
+            <string>AdaBoost</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="BaggingCB">
+           <property name="text">
+            <string>Bagging</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="GBCB">
+           <property name="text">
+            <string>GradientBoosting</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="XGBCB">
+           <property name="text">
+            <string>XGBoost</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="LGBMCB">
+           <property name="text">
+            <string>LightGBM</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="MaxentCB">
+           <property name="text">
+            <string>Maxent</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>1221</width>
+          <height>771</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_1">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="btn_prev">
+        <property name="geometry">
+         <rect>
+          <x>1110</x>
+          <y>850</y>
+          <width>61</width>
+          <height>34</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>이전</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_next">
+        <property name="geometry">
+         <rect>
+          <x>1180</x>
+          <y>850</y>
+          <width>61</width>
+          <height>34</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>다음</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>1110</x>
+          <y>800</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Mapping</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>70</y>
+          <width>1341</width>
+          <height>741</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="PltLayout"/>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>2</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1579</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
