@@ -9,8 +9,8 @@ WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링](https:/
 프로그램 WAY를 통해 파이썬 코딩, 머신러닝 등의 사전지식 없이 SDM을 활용할수 있도록 설계했습니다. 
 
 # 사용방법
-* 본 예시에서는 레퍼지토리에 기재된 TestData를 사용하였습니다.
-#
+* 본 예시에서는 레퍼지토리에 기재된 TestData를 사용하였습니다. <br/><br/>
+
 폴더중 WAY1.0 폴더를 열어 돋보기 아이콘의 WAY.exe 파일을 열어줍니다.
 ![image](https://user-images.githubusercontent.com/95641633/208608993-57e7a6cb-80b3-4bec-a64b-289add2e8ec8.png)<br/><br/><br/>          
   
@@ -48,7 +48,7 @@ OUTPUT 폴더에는 최종 결과물들이 형성 됩니다.
 
 모델 결과를 이미지로 출력하며 이전 / 다음 버튼을 통해 다른 모델의 결과를 확인합니다.<br/>
 하단 텍스트 에디터에 각 모델마다의 결과물을 텍스트로 출력합니다. 
-![image](https://user-images.githubusercontent.com/95641633/208618539-8ecfce9a-76ce-407c-88b5-fd60df2cc30e.png)<br/><br/
+![image](https://user-images.githubusercontent.com/95641633/208618539-8ecfce9a-76ce-407c-88b5-fd60df2cc30e.png)<br/><br/>
 
 OUTPUT 폴더에 결과물들이 생성됩니다.
 ![image](https://user-images.githubusercontent.com/95641633/208618348-528184e7-8215-4aa5-857e-20947890b4a5.png)<br/><br/>
