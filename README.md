@@ -5,7 +5,7 @@
 # 소개
 종 분포 모델링(SDM: Species Distribution Modeling)이란, 컴퓨터 알고리즘을 사용하여 지리적 시공간에 걸쳐 종의 분포를 예측하는 모델링입니다.
 
-WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링](https://github.com/osgeokr/SDM4PyDev) 을 기반으로 만들어진 GUI 형태의 SDM 프로그램으로, 현재 pilot 단계에 있습니다. 
+WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링](https://github.com/osgeokr/SDM4PyDev) 을 기반으로 만들어진 GUI 형태의 SDM 프로그램으로, 현재 PoC(Proof of Concept) 단계에 있습니다. 
 프로그램 WAY를 통해 파이썬 코딩, 머신러닝 등의 사전지식 없이 SDM을 활용할수 있도록 설계했습니다. 
 
 # 사용방법
