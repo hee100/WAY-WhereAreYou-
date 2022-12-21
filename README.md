@@ -1,11 +1,11 @@
 
-<img src='https://user-images.githubusercontent.com/95641633/208577817-e439ef66-b778-4cf2-90c5-92e080806662.png' width="30%" height="40%"> ![BigLeader_logo](https://user-images.githubusercontent.com/95641633/208577847-d4472aca-8852-418b-9cda-cbddb74a6ec8.png)
+<img src='https://user-images.githubusercontent.com/95641633/208577817-e439ef66-b778-4cf2-90c5-92e080806662.png' width="30%" height="40%" align="left">    ![BigLeader_logo](https://user-images.githubusercontent.com/95641633/208577847-d4472aca-8852-418b-9cda-cbddb74a6ec8.png)
 
 
 # 소개
 종 분포 모델링(SDM: Species Distribution Modeling)이란, 컴퓨터 알고리즘을 사용하여 지리적 시공간에 걸쳐 종의 분포를 예측하는 모델링입니다.
 
-WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링](https://github.com/osgeokr/SDM4PyDev) 을 기반으로 만들어진 GUI 형태의 SDM 프로그램으로, 현재 PoC(Proof of Concept) 단계에 있습니다. 
+WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링 SDM4PyDev](https://github.com/osgeokr/SDM4PyDev)을 기반으로 만들어진 GUI 형태의 SDM 프로그램으로, 현재 PoC(Proof of Concept) 단계에 있습니다. 
 프로그램 WAY를 통해 파이썬 코딩, 머신러닝 등의 사전지식 없이 SDM을 활용할수 있도록 설계했습니다. 
 
 # 사용방법
@@ -75,7 +75,8 @@ Mapping 탭에서 모든 모델의 평균 결과값을 보여줍니다.
 
 
 ## 팀, 멘토소개
-팀명 'T-mirum'은 다양한 분야에 깊은 지식을 가지는 T자형 인재 + 라틴어 놀라다 'mirum'의 합성어 입니다. 저희 T-mirum은 22년 빅리더 AI 아카데미에 참가하여 멘토 유병혁 과장님이 주관하는 종 분포 모델링 프로젝트에 참여하여 프로그램 WAY를 개발했습니다.
+팀명 'T-mirum'은 다양한 분야에 깊은 지식을 가지는 T자형 인재 + 라틴어 놀라다 'mirum'의 합성어 입니다. 저희 T-mirum은 22년 빅리더 AI 아카데미에 참가하여 멘토 유병혁 과장님이 주관하는 종 분포 모델링 프로젝트에 참여하여 프로그램 WAY를 개발했습니다. 
+
 
 - T-mirum
   - 공희배 (경남대학교 전자공학과)
@@ -89,11 +90,17 @@ Mapping 탭에서 모든 모델의 평균 결과값을 보여줍니다.
   - 유병혁 (국립공원공단 사회가치혁신실 bhyu@knps.or.kr; OSGeo Charter Member; GGRS 기술블로거)
  
 - 테스터
-  - 수동, 김현, 박경식, 오충현, 조봉교, 진민화 (경상국립대학교 조경학과 대학원)
+  - 이수동, 김현, 박경식, 오충현, 조봉교, 진민화 (경상국립대학교 조경학과 대학원)
   - 안미연 (부산대학교 조경학과 대학원)
   - 윤성수 (국립생태원 생태정보팀)
   - 성정모 (국립공원공단 속리산국립공원사무소)
 
-## With us
-### [Pyinstaller](https://pyinstaller.org/en/stable/#)
+## With
+- 인스톨러
+  - [Pyinstaller](https://pyinstaller.org/en/stable/#)  
+
+- SDM
+  - Daniel Furman의 SDM 튜토리얼 오픈소스 - [A brief introduction to Species Distribution Models in Python](https://daniel-furman.github.io/Python-species-distribution-modeling/)  
+  - perrygeo의 지리공간과 sikit-learn을 연동시켜주는 오픈소스 - [pyimpute](https://github.com/perrygeo/pyimpute)
+
 
