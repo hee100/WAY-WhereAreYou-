@@ -1,0 +1,2 @@
+xgboost.dll filter=lfs diff=lfs merge=lfs -text
+/Users/gonghuibae/projects/way/WAY1.0/xgboost/lib/xgboost.dll filter=lfs diff=lfs merge=lfs -text
