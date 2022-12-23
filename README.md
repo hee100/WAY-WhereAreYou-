@@ -1,12 +1,16 @@
 
-<img src='https://user-images.githubusercontent.com/95641633/208577817-e439ef66-b778-4cf2-90c5-92e080806662.png' width="30%" height="40%"> ![BigLeader_logo](https://user-images.githubusercontent.com/95641633/208577847-d4472aca-8852-418b-9cda-cbddb74a6ec8.png)
-
+<table>
+ <tr>
+  <td><img src="https://user-images.githubusercontent.com/52292818/201601804-dae21bbc-1553-48a8-8e29-7466641ee204.png" width="400"></td>
+  <td><img src="https://user-images.githubusercontent.com/52292818/201601828-843ccba5-8762-4ddb-8aa0-4be502ce58fb.png" width="400"></td>
+</table>
 
 # 소개
 종 분포 모델링(SDM: Species Distribution Modeling)이란, 컴퓨터 알고리즘을 사용하여 지리적 시공간에 걸쳐 종의 분포를 예측하는 모델링입니다.
 
-WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링](https://github.com/osgeokr/SDM4PyDev) 을 기반으로 만들어진 GUI 형태의 SDM 프로그램으로, 현재 PoC(Proof of Concept) 단계에 있습니다. 
-프로그램 WAY를 통해 파이썬 코딩, 머신러닝 등의 사전지식 없이 SDM을 활용할수 있도록 설계했습니다. 
+WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링 SDM4PyDev](https://github.com/osgeokr/SDM4PyDev)을 기반으로 만들어진 GUI 형태의 SDM 프로그램으로, 현재 PoC(Proof of Concept) 단계에 있습니다. 
+프로그램 WAY를 통해 파이썬 코딩, 머신러닝 등 사전지식 없이 SDM을 활용할수 있도록 설계했습니다. 
+<br/><br/><br/><br/><br/>
 
 # 사용방법
 * 본 예시에서는 레퍼지토리에 기재된 TestData를 사용하였습니다. <br/><br/>
@@ -16,9 +20,7 @@ WAY(WhereAreYou)는 [파이썬 개발자를 위한 종 분포 모델링](https:/
   
 아래와 같은 화면이 나타납니다. 
 ![image](https://user-images.githubusercontent.com/95641633/208609156-87a39a82-f763-4915-8b40-4f3a13235d62.png)<br/><br/><br/>
-
-
-1. 위치 좌표 버튼을 클릭하여 shp, gpkg등의 원하는 종의 좌표 데이터를 불러옵니다.
+"위치 좌표" 버튼을 클릭하여 shp, gpkg등의 원하는 종의 좌표 데이터를 불러옵니다.
 ![image](https://user-images.githubusercontent.com/95641633/208610459-f0f33603-e733-4083-8ee0-108ba9800a0b.png)<br/><br/><br/>
 
 바탕화면에 "WAY"라는 새로운 폴더가 나타납니다.    
@@ -28,12 +30,12 @@ INPUT 폴더에는 리샘플링이 완료된 좌표계와 최종 모델링때 �
 OUTPUT 폴더에는 최종 결과물들이 형성 됩니다.
 ![image](https://user-images.githubusercontent.com/95641633/208613087-ba2d386a-c83d-445e-b133-b3e4e7015858.png)<br/><br/><br/>
 
-2. 환경변수 버튼을 클릭하여 환경변수 폴더를 가져옵니다. ( 폴더 선택시 선택된 폴더 안의 모든 tif 파일을 가져옵니다. )
+"환경변수" 버튼을 클릭하여 환경변수 폴더를 가져옵니다. ( 폴더 선택시 선택된 폴더 안의 모든 tif 파일을 가져옵니다. )
 ![image](https://user-images.githubusercontent.com/95641633/208611253-6061dffe-bb74-4de2-92ce-e2c0afcfef73.png)<br/>
 리샘플링이 완료돤 좌표계(Occurrences.gpkg)와 모델링에 사용될 CSV파일(TRAIN_VEC.csv)가 형성됩니다.
 ![image](https://user-images.githubusercontent.com/95641633/208615190-ff6ebae2-7feb-43af-813d-4c70e80d7d27.png)<br/><br/>
 
-3. csv파일 버튼을 클릭해 TRAIN_VEC.csv을 선택해줍니다.
+"csv파일" 버튼을 클릭해 TRAIN_VEC.csv을 선택해줍니다.
 ![image](https://user-images.githubusercontent.com/95641633/208614980-cd4d8af3-24dd-4828-a9c0-b3bc44624fd8.png)<br/><br/>
 좌측에 TRAIN_VEC.csv의 내용을 담은 테이블이 나타나며 우측에는 대한민국 지도안의 위치좌표가 나타납니다. ( 빨간좌표가 출현좌표이며 검은좌표는 비출현좌표로, 리샘플링된 좌표입니다.)
 ![image](https://user-images.githubusercontent.com/95641633/208615339-434a9dcf-a5e1-4f1e-a1bc-7c584ca837da.png)<br/><br/><br/>
@@ -75,7 +77,8 @@ Mapping 탭에서 모든 모델의 평균 결과값을 보여줍니다.
 
 
 ## 팀, 멘토소개
-팀명 'T-mirum'은 다양한 분야에 깊은 지식을 가지는 T자형 인재 + 라틴어 놀라다 'mirum'의 합성어 입니다. 저희 T-mirum은 22년 빅리더 AI 아카데미에 참가하여 멘토 유병혁 과장님이 주관하는 종 분포 모델링 프로젝트에 참여하여 프로그램 WAY를 개발했습니다.
+팀명 'T-mirum'은 다양한 분야에 깊은 지식을 가지는 T자형 인재 + 라틴어 놀라다 'mirum'의 합성어 입니다. 저희 T-mirum은 22년 빅리더 AI 아카데미에 참가하여 멘토 유병혁 과장님이 주관하는 종 분포 모델링 프로젝트에 참여하여 프로그램 WAY를 개발했습니다. 
+
 
 - T-mirum
   - 공희배 (경남대학교 전자공학과)
@@ -89,11 +92,17 @@ Mapping 탭에서 모든 모델의 평균 결과값을 보여줍니다.
   - 유병혁 (국립공원공단 사회가치혁신실 bhyu@knps.or.kr; OSGeo Charter Member; GGRS 기술블로거)
  
 - 테스터
-  - 수동, 김현, 박경식, 오충현, 조봉교, 진민화 (경상국립대학교 조경학과 대학원)
+  - 이수동, 김현, 박경식, 오충현, 조봉교, 진민화 (경상국립대학교 조경학과 대학원)
   - 안미연 (부산대학교 조경학과 대학원)
   - 윤성수 (국립생태원 생태정보팀)
   - 성정모 (국립공원공단 속리산국립공원사무소)
 
-## With us
-### [Pyinstaller](https://pyinstaller.org/en/stable/#)
+## With
+- 인스톨러
+  - [Pyinstaller](https://pyinstaller.org/en/stable/#)  
+
+- SDM
+  - Daniel Furman의 SDM 튜토리얼 오픈소스 - [A brief introduction to Species Distribution Models in Python](https://daniel-furman.github.io/Python-species-distribution-modeling/)  
+  - perrygeo의 지리공간과 sikit-learn을 연동시켜주는 오픈소스 - [pyimpute](https://github.com/perrygeo/pyimpute)
+
 
