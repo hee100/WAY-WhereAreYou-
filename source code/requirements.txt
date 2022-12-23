@@ -1,3 +1,5 @@
+# requirements 으로 install 안될경우
+# https://github.com/hee100/SDM4PyDev 의 Prerequisites탭 참조 후, PyQtWebEngine, natsort, seaborn, folium 추가 설치
 affine==2.3.1
 altgraph==0.17.2
 argon2-cffi==20.1.0

@@ -34,7 +34,6 @@ from sklearn.preprocessing import LabelEncoder
 
 from osgeo import ogr
 import numpy as np
-# import geopandas as gpd
 import shapely.geometry
 
 ogr.UseExceptions()
